@@ -15,7 +15,7 @@ public class JenkinMaven {
 		if(browsername.equalsIgnoreCase("Chrome"))
 		{
 			
-        System.out.println("welcome");
+        System.out.println("welcome1234");
         
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\raselvam\\Downloads\\selenium\\chromedriver.exe"); 
 		WebDriver driver = new ChromeDriver();
