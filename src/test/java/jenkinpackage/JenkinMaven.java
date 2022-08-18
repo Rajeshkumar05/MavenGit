@@ -15,8 +15,8 @@ public class JenkinMaven {
 		if(browsername.equalsIgnoreCase("Chrome"))
 		{
 			
-		
-		System.out.println("welcome to jenkinsssss world via chrome");
+        System.out.println("welcome");
+        
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\raselvam\\Downloads\\selenium\\chromedriver.exe"); 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
